@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <br>
+    <button id='createParent'>Create Parent</button>
+    <div style="display: flex; justify-content: space-between; padding: 20px;">
+        <div>
+            <div class='text-center'>
+                    <ul id="backend">
+                    </ul>
+            </div>
+        </div>
+        <div>
+            <label for="">Subject</label><br>
+            <textarea name="" id="subject" cols="90" rows="1"></textarea><br><br>
+            <label for="">Discripction</label><br>
+            <textarea name="" id="descrip" cols="90" rows="10"></textarea>
+            <div style="display: flex; justify-content: space-between;">
+                Tags: 
+                <span style="padding-right: 81vh;" id="tags">
+                   
+                </span>
+                <span>
+                    <button onclick="cancel()">Cancel</button>
+                    <button onclick="show_tags_list()">Save</button>
+                </span>
+            </div>
+
+            <div style="display: flex; ">
+
+                <div>
+                    <ul id="subjectlist">
+                        
+                    </ul>
+                </div>
+
+                <div style="padding-left: 50vh;">
+                    <h3 style="padding-left: 6vh;">Tags</h3>
+                    <ol id="task_list">
+                        
+                    </ol>
+                </div>
+
+
+            </div>
+
+          
+        </div>
+
+    </div>
+ 
+   
+    <div class="row">
+        <div class="col-md-4">
+
+          
+        </div>
+
+    </div>
+
+
+    <div>
+		
+	</div>
+
+
+
+
+
+
+    <script src='script.js'></script>
+</body>
+
+</html>
